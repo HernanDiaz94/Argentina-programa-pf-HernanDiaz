@@ -1,0 +1,49 @@
+.habilidades{
+    max-width: 980px;
+    margin:0 auto;
+}
+
+.habilidades-titulo{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.habilidades-item{
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(0,0, 0, 0.25);
+    border-radius: 30px;
+    padding: 0.5em 0.7em;
+    margin: 10px;
+}
+
+.habilidades-lista{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/*Configuracion para Desktop*/
+@media (min-width: 950px) {
+    .habilidades-titulo{
+        font-size: 40px;
+    }
+    
+    .habilidades-item{
+        font-size: 25px;
+        margin: 15px;
+    }
+    
+    .habilidades-lista{
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

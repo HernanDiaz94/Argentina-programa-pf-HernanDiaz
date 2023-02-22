@@ -1,0 +1,53 @@
+/* raiz donde declaro variables*/
+:root{
+    --theme-color: white;
+    --primary-color: #124F88;
+    --secundary-color: #31a8f7;
+    --text-color-inverse: white;
+    --text-color: black;
+    --navbar-shallow-color: #e5e5e5;
+    --menu-mobile-background-color: #3A4460; 
+}
+
+body{
+    font-family: 'Anton', sans-serif;
+    background-color: var(--theme-color);
+    color: var(--text-color);
+    padding-top: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.espaciado-horizontal{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.espaciado-vertical{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.pie{
+    background-color: var(--secundary-color);
+    clear:both;
+    color:#000;
+    padding:10px auto;
+    text-align:center;
+  }
+
+@media (min-width: 950px )  {
+
+    .espaciado-horizontal{
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+
+    .espaciado-vertical{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}

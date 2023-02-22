@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.contacto{
+    font-family: 'Roboto', sans-serif;
+    max-width: 980px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.contacto-titulo{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+/*Configuracion para Desktop*/
+@media (min-width: 950px) {
+    .contacto-titulo{
+        font-size: 50px;
+    }
+}

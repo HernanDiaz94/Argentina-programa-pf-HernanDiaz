@@ -1,0 +1,49 @@
+.proyectos{
+    max-width: 980px;
+    margin:0 auto;
+}
+
+.proyectos-titulo{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.proyectos-item{
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(0,0, 0, 0.25);
+    border-radius: 42px;
+    padding: 0.5em 0.7em;
+    margin: 10px;
+}
+
+.proyectos-lista{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/*Configuracion para Desktop*/
+@media (min-width: 950px) {
+    .proyectos-titulo{
+        font-size: 50px;
+    }
+    
+    .proyectos-item{
+        font-size: 30px;
+        margin: 20px;
+    }
+    
+    .proyectos-lista{
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

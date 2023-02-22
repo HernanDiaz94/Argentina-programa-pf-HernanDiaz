@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/navbar.css" />
+        <link rel="stylesheet" href="css/perfil.css" />
+        <link rel="stylesheet" href="css/proyectos.css" />
+        <link rel="stylesheet" href="css/contacto.css" />
+        <script defer src="js/app.js"></script>
+        <link rel="shortcut icon" href="img/logo.png" />
+
+        <!-- Fuente de google fonts en css font-family: 'Anton', sans-serif;-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+            rel="stylesheet"
+        />
+
+        <title>Hernan Diaz</title>
+    </head>
+    <body>
+        <header class="topheader">
+            <nav class="topnav">
+                <a href="#" class="logo">
+                    <img
+                        height="50px"
+                        width="50px"
+                        src="img/logo.png"
+                        alt="logo"
+                    />
+                    <div>&nbsp;&nbsp; Hernan Diaz <br /></div>
+                </a>
+                <button class="open-menu" aria-label="Abrir Menu">
+                    <img src="img/menu_boton_open.png" alt="abrir menu" />
+                </button>
+
+                <ul class="menu">
+                    <button class="close-menu" aria-label="Cerrar Menu">
+                        <img src="img/menu_boton_close.png" alt="cerrar menu" />
+                    </button>
+                    <li><a href="index.html" target="_self">Perfil</a></li>
+                    <li>
+                        <a href="acercaDeMi.html#acercaDeMi">Acerca de Mi</a>
+                    </li>
+                    <li><a href="proyectos.html#proyectos">Proyectos</a></li>
+                    <li><a href="contacto.html#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="espaciado-horizontal espaciado-vertical">
+            <section class="perfil">
+                <div class="perfil-info">
+                    <h1 class="perfil-titulo">Hola, soy <br />Hernan Diaz</h1>
+                    <p class="perfil-detalles">
+                        Soy programador. Me gusta el diseño web y estoy
+                        capacitandome para poder crear sitios webs
+                        profesionales.
+                    </p>
+                    <button class="perfil-boton">
+                        <a
+                            href="CV_Hernan_Diaz_v5_21.pdf"
+                            download="CV_Hernan_Diaz_v5_21.pdf"
+                            >Descargar CV</a
+                        >
+                    </button>
+                </div>
+                <span class="perfil-imagen">
+                    <img
+                        class="perfil-foto"
+                        src="img/pp.jpg"
+                        alt="perfil-foto"
+                        title="perfil_foto"
+                    />
+                    <div class="perfil-imagen-linea"></div>
+                </span>
+            </section>
+        </div>
+
+        <!-- Proyectos -->
+        <a id="proyectos"></a><br />
+        <div class="espaciado-horizontal espaciado-vertical">
+            <section class="proyectos">
+                <h2 class="proyectos-titulo">Mis proyectos</h2>
+
+                <ul class="proyectos-lista">
+                    <li class="proyectos-item">
+                        <a
+                            href="http://sedelosaltos.unca.edu.ar/"
+                            target="_BLANK"
+                        >
+                            Pagina web sede Los Altos,Catamarca</a
+                        >
+                    </li>
+
+                    <li class="proyectos-item">
+                        <a
+                            href="https://sedebelen.unca.edu.ar/"
+                            target="_BLANK"
+                        >
+                            Pagina web sede Belen,Catamarca</a
+                        >
+                    </li>
+
+                    <li class="proyectos-item">
+                        <a
+                            href="https://pagina-prueba-venta-ctav1.netlify.app/"
+                            target="_BLANK"
+                        >
+                            Aplicacion creador de facturas de venta</a
+                        >
+                    </li>
+
+                    <li class="proyectos-item">
+                        <a
+                            href="https://turnos-veterinaria-cta.netlify.app/"
+                            target="_BLANK"
+                        >
+                            Aplicacion de turnos veterinaria</a
+                        >
+                    </li>
+                </ul>
+                <br />
+                <p>
+                    Nota: En cada proyecto use como IDE Visual Studio Code por
+                    que me simplifica varias cuestiones a la hora de codificar.
+                </p>
+                <p>
+                    Me encuentro aprendiendo GIT y Bitbucket para manejar mejor
+                    los proyectos ademas de ir llevando un control de las
+                    versiones o cambios en dicho proyecto.
+                </p>
+            </section>
+        </div>
+        <!-- Fin Proyectos -->
+
+        <div class="pie">
+            <p>Sitio Web de Hernan Diaz &#169; 2021</p>
+        </div>
+    </body>
+</html>
