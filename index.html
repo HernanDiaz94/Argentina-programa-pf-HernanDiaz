@@ -45,10 +45,10 @@
                     </button>
                     <li><a href="index.html" target="_self">Perfil</a></li>
                     <li>
-                        <a href="acercaDeMi.html#acercaDeMi">Acerca de Mi</a>
+                        <a href="index.html#acercaDeMi" target="_parent">Acerca de Mi</a>
                     </li>
-                    <li><a href="proyectos.html#proyectos">Proyectos</a></li>
-                    <li><a href="contacto.html#contacto">Contacto</a></li>
+                    <li><a href="index.html#proyectos" target="_parent">Proyectos</a></li>
+                    <li><a href="index.html#contacto" target="_parent">Contacto</a></li>
                 </ul>
             </nav>
         </header>
@@ -58,7 +58,7 @@
                 <div class="perfil-info">
                     <h1 class="perfil-titulo">Hola, soy <br />Hernan Diaz</h1>
                     <p class="perfil-detalles">
-                        Soy Desarrollador web. Me encanta la tecnologia y estoy
+                        Mi perfil es de Desarrollador web front-end. Me encanta la tecnologia y estoy
                         siempre al tanto de las novedades para poder hacer mejores sitios webs.
                     </p>
                     <button class="perfil-boton">
@@ -80,6 +80,38 @@
             </section>
         </div>
 
+        <!-- AcercaDeMi -->
+        <a id="acercaDeMi"></a><br />
+        <div class="espaciado-horizontal espaciado-vertical">
+            <div class="acercaDeMi">
+                <h2 class="acercaDeMi-titulo">Conoceme</h2>
+
+                <p>
+                    Soy Hernan Diaz, vivo en San Fernando del Valle de
+                    Catamarca. Tambien es donde naci un 17 de
+                    Septiembre de 1994. Actualmente tengo 28 años.
+                </p>
+                <p>
+                    Soy estudiante avanzado de tecnicatura en Informatica,
+                    carrera de la Universisad Nacional de Catamarca (UNCA). Me gusta todo lo relacionada a la
+                    informatica, ademas tengo conocimientos en programacion,
+                    reparacion de equiposy redes. Mis experiencias son trabajar en el rectorado de la UNCA 
+                    y en Novatech/PhinxLab donde adquiri experiencia laboral trabajando en equipo para
+                    cumplir los desafios y objetivos que proponia la organizacion.
+                </p>
+                <p>
+                    Conozco la importancia de aprender cada dia es por eso que me encuentro haciendo capacitaciones en lenguajes de programacion e ingles. 
+                    Debes en cuando tambien me pongo a investigar sobre las ultimas novedades tecnologicas
+                </p>
+                <p>
+                    Tengo experiencia y conocimientos en cada ambito de la informatica podes
+                    <span><a href="#contacto">Contactarme</a></span> si queres consultarme sobre un tema
+                    especifico, no hay problema.
+                </p>
+            </div>
+        </div>
+        <!--Fin AcercaDeMi -->
+
         <!--Habilidades-->
         <a id="habilidadess"></a><br />
         <div class="espaciado-horizontal espaciado-vertical">
@@ -97,6 +129,105 @@
                 </ul>
             </section>
         </div>
+        <!-- Fin Habilidades -->
+
+        <!-- Proyectos -->
+        <a id="proyectos"></a><br />
+        <div class="espaciado-horizontal espaciado-vertical">
+            <section class="proyectos">
+                <h2 class="proyectos-titulo">Mis proyectos</h2>
+
+                <ul class="proyectos-lista">
+                    <li class="proyectos-item">
+                        <a
+                            href="http://sedelosaltos.unca.edu.ar/"
+                            target="_BLANK"
+                        >
+                            Pagina web sede Los Altos,Catamarca</a
+                        >
+                    </li>
+
+                    <li class="proyectos-item">
+                        <a
+                            href="https://sedebelen.unca.edu.ar/"
+                            target="_BLANK"
+                        >
+                            Pagina web sede Belen,Catamarca</a
+                        >
+                    </li>
+
+                    <li class="proyectos-item">
+                        <a
+                            href="https://pagina-prueba-venta-ctav1.netlify.app/"
+                            target="_BLANK"
+                        >
+                            Aplicacion creador de facturas de venta</a
+                        >
+                    </li>
+
+                    <li class="proyectos-item">
+                        <a
+                            href="https://turnos-veterinaria-cta.netlify.app/"
+                            target="_BLANK"
+                        >
+                            Aplicacion de turnos veterinaria</a
+                        >
+                    </li>
+                </ul>
+                <br />
+                <p>
+                    Nota: En cada proyecto use como IDE Visual Studio Code por
+                    que me simplifica varias cuestiones a la hora de codificar.
+                </p>
+                <p>
+                    Me encuentro aprendiendo GIT y Bitbucket para manejar mejor
+                    los proyectos ademas de ir llevando un control de las
+                    versiones o cambios en dicho proyecto.
+                </p>
+            </section>
+        </div>
+        <!-- Fin Proyectos -->
+
+        <!-- Contacto -->
+        <a id="contacto"></a><br />
+        <div class="espaciado-horizontal espaciado-vertical">
+            <div class="contacto">
+                <h2 class="contacto-titulo">Contacto</h2>
+                <p>Estos son los datos de contacto</p>
+                <p><b>Telefono: 3834263475</b></p>
+                <p><b>Correo: Hernan.diiaz@gmail.com</b></p>
+                <!-- <br /> -->
+
+                <div class="formulario">
+                    <h2 class="contacto-titulo">Formulario de contacto</h2>
+
+                    <form action="formContacto.php" method="POST">
+                        <label for="nombre">Ingresa tu Nombre:</label><br />
+                        <input type="text" name="nombre" id="nombre" /><br />
+
+                        <label for="email">Ingresa tu email:</label><br />
+                        <input
+                            type="email"
+                            name="email"
+                            size="30"
+                            required
+                        /><br />
+                        <!-- para pedir formato de correo especifico: pattern=".+@gmail.com" -->
+                        <label for="consulta">Ingresa tu consulta:</label><br />
+                        <textarea
+                            name="consulta"
+                            id="consulta"
+                            cols="50"
+                            rows="10"
+                            placeholder="Tu consulta..."
+                        ></textarea
+                        ><br />
+                        <button type="submit" value="Enviar">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Fin Contacto -->
 
         <div class="pie">
             <p>Sitio Web de Hernan Diaz &#169; 2023</p>

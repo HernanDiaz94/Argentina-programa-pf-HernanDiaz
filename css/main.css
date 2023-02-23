@@ -1,8 +1,8 @@
 /* raiz donde declaro variables*/
 :root{
     --theme-color: white;
-    --primary-color: #124F88;
-    --secundary-color: #31a8f7;
+    --primary-color: #3d9994;
+    --secundary-color: #3d9994;
     --text-color-inverse: white;
     --text-color: black;
     --navbar-shallow-color: #e5e5e5;
@@ -37,6 +37,7 @@ a{
     color:#000;
     padding:10px auto;
     text-align:center;
+    margin-top: 30px;
   }
 
 @media (min-width: 950px )  {
