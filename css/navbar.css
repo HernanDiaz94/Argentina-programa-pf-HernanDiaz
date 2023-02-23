@@ -12,9 +12,9 @@
 .topnav{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 5px 0px;
     max-width: 980px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 
@@ -74,7 +74,7 @@
     }
 
     .menu li{
-        padding: 0 ; /*arriba derecha abajo izquierda */
+        padding: 0 ; /*0/0/0/0 - arriba /derecha /abajo /izquierda */
     }
 
     .menu a{
