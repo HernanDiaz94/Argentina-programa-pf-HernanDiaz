@@ -6,11 +6,10 @@ $form.addEventListener('submit', handleSubmit)
 function handleSubmit(event){
     event.preventDefault();
     const form = new FormData(this);
-    console.log(form.get('nombre'));
-
     $buttonMailTo.setAttribute('href', 
     `mailto:hernan.diiaz@gmail.com
     ?subject=${form.get('nombre')} ${form.get('email')}
-    &body=${form.get('consulta')}`);
+    &body=${form.get('consulta')}
+    `);
     $buttonMailTo.click();
 }
